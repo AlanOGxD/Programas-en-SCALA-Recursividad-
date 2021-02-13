@@ -19,7 +19,7 @@ object Vocales {
   }
   
   def main(args: Array[String]): Unit = {
-    println("Ingrese el numero para conocer sus divisores: ")
+    println("Ingrese la cadena: ")
     val s = readLine()
     
     vocales(s, 0, 0)
