@@ -6,7 +6,7 @@ object DecimalABinario {
     var resto = 0
     var n2 = n
     var cadena = s
-    if(n2>2){
+    if(n2>=2){
       resto= n%2
       n2=n2/2
       cadena=resto+cadena
