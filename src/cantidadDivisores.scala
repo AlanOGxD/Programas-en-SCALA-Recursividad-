@@ -7,7 +7,6 @@ object cantidadDivisores {
     if(n%cont == 0){
       println(cont) 
       contx+=1
-      println("des:"+contx)
     }
     divisores(n, cont-1, contx)
     }else{
